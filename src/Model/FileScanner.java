@@ -23,7 +23,7 @@ public class FileScanner {
         try {
 
 
-            VirusTotalConfig.getConfigInstance().setVirusTotalAPIKey("1ac910b3fbfcb977b199e7113a20030386f81ce6ba242d4c56683789f08ae42e");
+            VirusTotalConfig.getConfigInstance().setVirusTotalAPIKey("Insert API key here");
             VirustotalPublicV2 virusTotalRef = new VirustotalPublicV2Impl();
 
             ScanInfo scanInformation = virusTotalRef.scanFile(new File(filePath));
